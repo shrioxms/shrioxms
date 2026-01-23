@@ -95,7 +95,7 @@ function WebResult() {
                         alt={items.name}
                         width={40}
                         height={40}
-                        style={{ width: "auto", height: "auto" }}
+                        style={{ widp=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC9Y11ZKVqiA28hdzZvfvE3VWms9cztZ7C86NnQr/nh625Ue58jICmtA4ZHNHo7U8t0kdRZdeFDxFSTdzIiY3BLUdi4ITHYnqQKcjbKED4/4+1BsTIDw+yWly3zUBuUyEcfu27yp2e7ZOhE4MIP/pPbsjZqDugJ3tr6XacjMjTyeQIDAQABth: "auto", height: "auto" }}
                       />
                       <span className="instrument-font italic font-normal">
                         {items.name}
