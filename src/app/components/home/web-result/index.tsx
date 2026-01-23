@@ -139,22 +139,32 @@ function WebResult() {
           </div> */}
 
           <div>
-            <section className="relative overflow-hidden py-18 px-6">
+            <section className="relative overflow-hidden py-18">
               <div className="max-w-6xl mx-auto">
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-                  {/* Image */}
-                  <div className="relative h-96 lg:h-full min-h-96 rounded-lg overflow-hidden">
+                {/* Flex/Grid logic: order-first moves the heading to the top on mobile */}
+                <div className="flex flex-col lg:grid lg:grid-cols-2 gap-12 items-center">
+                  {/* 1. Heading (Visible only on Mobile, at the top) */}
+                  <h2 className="text-3xl lg:hidden text-slate-900 dark:text-white">
+                    About Us
+                  </h2>
+
+                  {/* 2. Image (Second on mobile, first on desktop) */}
+                  <div className="relative w-full h-96 lg:h-[500px] rounded-lg overflow-hidden order-2 lg:order-1">
                     <Image
                       src={aboutUsImage}
                       alt="Diverse team in business meeting"
-                      className="w-full h-full object-cover"
+                      className="object-cover"
                     />
+
                     <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
                   </div>
 
-                  {/* About Text */}
-                  <div className="space-y-6">
-                    <h2 className="mb-10">About Us</h2>
+                  {/* 3. Description (Last on mobile, second on desktop) */}
+                  <div className="space-y-6 order-3 lg:order-2">
+                    {/* Heading (Visible only on Desktop) */}
+                    <h2 className="text-4xl mb-10 hidden lg:block text-slate-900 dark:text-white">
+                      About Us
+                    </h2>
                     <p className="text-xl text-slate-600 dark:text-slate-300 leading-relaxed">
                       Shriox was born from a simple yet powerful idea:
                       consulting should feel human. We believe every company

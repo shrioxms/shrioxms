@@ -146,7 +146,9 @@ const Header = () => {
             <ul className="flex flex-col">
               {menuData &&
                 menuData?.map((item, index) => (
-                  <MobileHeader key={index} item={item} />
+                  <MobileHeader key={index} item={item} 
+                  closeMenu={() => setSidebarOpen(false)}
+                  />
                   
                 ))}
             </ul>     
