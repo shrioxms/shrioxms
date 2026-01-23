@@ -144,7 +144,7 @@ function WebResult() {
                 {/* Flex/Grid logic: order-first moves the heading to the top on mobile */}
                 <div className="flex flex-col lg:grid lg:grid-cols-2 gap-12 items-center">
                   {/* 1. Heading (Visible only on Mobile, at the top) */}
-                  <h2 className="text-3xl lg:hidden text-slate-900 dark:text-white">
+                  <h2 className="text-4xl lg:hidden text-slate-900 dark:text-white">
                     About Us
                   </h2>
 
