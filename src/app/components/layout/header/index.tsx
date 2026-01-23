@@ -149,7 +149,7 @@ const Header = () => {
                   <MobileHeader key={index} item={item} />
                   
                 ))}
-            </ul>
+            </ul>     
           </div>
         </div>
       </header>

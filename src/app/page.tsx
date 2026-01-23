@@ -65,7 +65,7 @@ export default function Home() {
       {/* ---------------------Career section Ends-----------------  */}
 
       {/* ---------------------Faq section Starts-----------------  */}
-      <Faq />
+      {/* <Faq /> */}
       {/* ---------------------Faq section Ends-----------------  */}
 
       {/* ---------------------Achievements section Starts-----------------  */}
