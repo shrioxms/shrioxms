@@ -9,7 +9,7 @@ export async function POST(req: Request) {
   try {
     const body = await req.json();
     const { name, companyName, email, interest, message } = body;
-    
+
     console.log("server data", name, companyName, email, interest, message);
 
     if (!name || !companyName || !email || !interest || !message) {
@@ -19,8 +19,6 @@ export async function POST(req: Request) {
       );
     }
 
-    
-    
     await resend.emails.send({
       from: "Contact Form <onboarding@resend.dev>",
       to: [process.env.RECEIVER_EMAIL!],
@@ -81,7 +79,7 @@ export async function POST(req: Request) {
 //   return NextResponse.json({ success: true });
 // }
 
-// nodemailer
+// Zoho nodemailer
 // import { NextResponse } from "next/server";
 // import nodemailer from "nodemailer";
 
