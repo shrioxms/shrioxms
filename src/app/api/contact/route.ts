@@ -20,8 +20,8 @@ export async function POST(req: Request) {
     }
 
     await resend.emails.send({
-      // from: "Contact Form <noreply@shrioxms.com>",
-      from: "Contact Form <onboarding@resend.dev>",
+      from: "Contact Form <noreply@shrioxms.com>",
+      // from: "Contact Form <onboarding@resend.dev>",
       to: [process.env.RECEIVER_EMAIL!],
       subject: `New Enquiry from ${name}`,
       html: `
