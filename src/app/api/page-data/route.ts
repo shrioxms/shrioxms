@@ -199,35 +199,47 @@ const startupPlanList = [
 
 const faqList = [
   {
-    faq_que: "What services does Awake Agency offer?",
+    faq_que: "What are Shrioxms core service offerings for Oracle SCM Cloud?",
     faq_ans:
-      "Yes, we provide post-launch support to ensure smooth implementation and offer ongoing maintenance packages for clients needing regular updates or technical assistance.",
+      "We offer comprehensive, end-to-end services across the entire Oracle Supply Chain Management Cloud suite, including Order Management, Inventory Management, Procurement Cloud, Maintenance Cloud, and other specific modules for Supply Chain Planning (like Demand and Supply Planning Cloud).",
   },
   {
-    faq_que: "How long does a typical project take?",
+    faq_que: "How does Shrioxms ensure a faster, low-risk ERP migration?",
     faq_ans:
-      "Yes, we provide post-launch support to ensure smooth implementation and offer ongoing maintenance packages for clients needing regular updates or technical assistance.",
+      "We leverage deep industry expertise and proprietary, pre-built PaaS-based accelerators to automate data gathering, migration, and validation. This approach helps reduce the risk, cost, and complexity typically associated with large-scale digital transformations.",
   },
   {
-    faq_que: "How is pricing structured at Awake Agency?",
+    faq_que: "Does your service include Business Process Transformation?",
     faq_ans:
-      "Yes, we provide post-launch support to ensure smooth implementation and offer ongoing maintenance packages for clients needing regular updates or technical assistance.",
+      "Absolutely. Our approach is not just technical; it is business process-driven. We start with a thorough assessment and gap analysis to define your “to-be” process recommendations, ensuring the new ERP system aligns perfectly with your strategic business goals.",
   },
   {
-    faq_que: "Do you offer ongoing support after project completion?",
+    faq_que:
+      "How does Shrioxms help improve customer satisfaction and delivery with Oracle SCM Cloud?",
     faq_ans:
-      "Yes, we provide post-launch support to ensure smooth implementation and offer ongoing maintenance packages for clients needing regular updates or technical assistance.",
+      "Shrioxms helps organizations implement Oracle SCM Cloud to react faster to business events using real-time visibility and connected supply chain insights. By enabling organizations to streamline operations, accelerate time-to-market, and ensure more efficient delivery, Shrioxms helps enhance customer satisfaction and create a more resilient supply chain.",
   },
   {
-    faq_que: "How often will I receive updates on my project?",
+    faq_que:
+      "What are the major challenge faced by firms, while implementing Oracle ERP cloud?",
     faq_ans:
-      "Yes, we provide post-launch support to ensure smooth implementation and offer ongoing maintenance packages for clients needing regular updates or technical assistance.",
+      "It includes, either underestimating or overestimating the modification in process, overseeing the migration risks, and sometimes the absence of a backup resource. To avoid these major issues, join hands with us. As the Oracle ERP Cloud Partners, we are ready to assist you with End-End digital transformation.",
   },
   {
-    faq_que: "How often will I receive updates on my project?",
+    faq_que: "Does Oracle ERP use Artificial Intelligence?",
     faq_ans:
-      "Yes, we provide post-launch support to ensure smooth implementation and offer ongoing maintenance packages for clients needing regular updates or technical assistance.",
+      "Oracle ERP is known as a complete ERP with built-in artificial intelligence. The AI capabilities help predict and forecast better, automate and eliminate manual processes, enhance the productivity of different teams, and improve customer churn.",
   },
+  {
+    faq_que: "What Industries Benefit Most From Oracle Cloud Services?",
+    faq_ans:
+      "Industries with complex processes and high compliance needs gain significant value, such as Healthcare, Public Sector, Retail, Financial Services, Manufacturing, Higher Education, and Non-Profit. Oracle Cloud enables these sectors to streamline operations and accelerate digital transformation.",
+  },
+  // , {
+  //   faq_que: "",
+  //   faq_ans:
+  //     "",
+  // },
 ];
 
 const achievementsList = [
