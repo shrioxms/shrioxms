@@ -49,7 +49,7 @@ function Products() {
       <Image
         src={myDinelinkImage}
         alt="MyDineLink restaurant management dashboard with QR ordering and kitchen orders"
-        className="h-full min-h-[360px] w-full object-cover object-center sm:min-h-[460px]"
+        className="h-full min-h-[360px] object-cover object-center sm:min-h-[460px]"
       />
     </div>
       </section>
