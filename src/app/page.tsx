@@ -1,0 +1,87 @@
+import { Metadata } from "next";
+import Achievements from "./components/home/achievements";
+import Brand from "./components/home/brand";
+import CreativeMind from "./components/home/creative-mind";
+import CustomerStories from "./components/home/customer-stories";
+import Faq from "./components/home/faq";
+import HeroSection from "./components/home/hero";
+import Innovation from "./components/home/innovation";
+import OnlinePresence from "./components/home/online-presence";
+import Solutions from "./components/home/solution";
+import Subscription from "./components/home/subscription";
+import WebResult from "./components/home/web-result";
+import Products from "./components/home/products";
+import Career from "./components/career";
+
+export const metadata: Metadata = {
+  // title: "Awake Agency",
+  title: "Shriox Management Solutions Pvt. Ltd.",
+};
+
+export default function Home() {
+  return (
+    <main>
+      {/* ---------------------Hero section Starts-----------------  */}
+      <HeroSection />
+      {/* ---------------------Hero section Ends-----------------  */}
+
+      {/* ---------------------Brand logo section Starts-----------------  */}
+      {/* <Brand /> */}
+      {/* ---------------------Brand logo section Ends-----------------  */}
+
+      {/* ---------------------Achievements section (why us)Starts-----------------  */}
+      <Achievements />
+      {/* ---------------------Achievements section Ends-----------------  */}
+
+      {/* ---------------------Web result section Starts-----------------  */}
+      {/* <WebResult /> */}
+      {/* ---------------------Web result section Ends-----------------  */}
+
+      {/* ---------------------Innovation section (services)Starts-----------------  */}
+      <Innovation />
+      {/* ---------------------Innovation section Ends-----------------  */}
+
+      {/* ---------------------Online presence section (work) Starts-----------------  */}
+      {/* <OnlinePresence /> */}
+      {/* ---------------------Online presence section Ends-----------------  */}
+
+      {/* ---------------------Web result section (about us) Starts-----------------  */}
+      <WebResult />
+      {/* ---------------------Web result section Ends-----------------  */}
+
+    {/* ---------------------Products section Starts-----------------  */}
+      <Products />
+      {/* ---------------------Products section Ends-----------------  */}
+
+
+      {/* ---------------------Creative mind section (team) Starts-----------------  */}
+      {/* <CreativeMind /> */}
+      {/* ---------------------Creative mind section Ends-----------------  */}
+
+
+      {/* ---------------------Customer Stories section (customer review) Starts-----------------  */}
+      {/* <CustomerStories /> */}
+      {/* ---------------------Customer Stories section Ends-----------------  */}
+
+      {/* ---------------------Subscription section (Price/plan) Starts-----------------  */}
+      <Subscription />
+      {/* ---------------------Subscription section Ends-----------------  */}
+
+      {/* ---------------------Career  section Starts-----------------  */}
+      <Career />
+      {/* ---------------------Career section Ends-----------------  */}
+
+      {/* ---------------------Faq section Starts-----------------  */}
+      <Faq />
+      {/* ---------------------Faq section Ends-----------------  */}
+
+      {/* ---------------------Achievements section Starts-----------------  */}
+      {/* <Achievements /> */}
+      {/* ---------------------Achievements section Ends-----------------  */}
+
+      {/* ---------------------Solutions section (our promise) Starts-----------------  */}
+      <Solutions />
+      {/* ---------------------Solutions section Ends-----------------  */}
+    </main>
+  );
+}
